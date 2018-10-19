@@ -2173,6 +2173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1385669191}
+  - component: {fileID: 1385669192}
   m_Layer: 0
   m_Name: Road
   m_TagString: Untagged
@@ -2199,6 +2200,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1385669192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385669190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ddc587148c345619e6baf102b224ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 1343569970}
+  - {fileID: 1817525668}
+  - {fileID: 2058373230}
+  - {fileID: 366628097}
+  - {fileID: 1553734656}
+  - {fileID: 1803526549}
+  testEnemyPrefab: {fileID: 197334, guid: f561f313e37464b2d982d25715bb43cf, type: 2}
 --- !u!1 &1437639235
 GameObject:
   m_ObjectHideFlags: 0
