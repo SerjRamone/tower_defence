@@ -1489,6 +1489,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goldLabel: {fileID: 2132922819}
+  waveLabel: {fileID: 1927656023}
+  nextWaveLabels:
+  - {fileID: 1267819980}
+  - {fileID: 26303382}
+  gameOver: 0
 --- !u!1 &614529709
 GameObject:
   m_ObjectHideFlags: 0
