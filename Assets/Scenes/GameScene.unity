@@ -1494,6 +1494,13 @@ MonoBehaviour:
   - {fileID: 1267819980}
   - {fileID: 26303382}
   gameOver: 0
+  healthLabel: {fileID: 614529710}
+  healthIndicator:
+  - {fileID: 2039832533}
+  - {fileID: 155113282}
+  - {fileID: 1987836116}
+  - {fileID: 1784974624}
+  - {fileID: 835470580}
 --- !u!1 &614529709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,7 +2240,7 @@ MonoBehaviour:
   - enemyPrefab: {fileID: 197334, guid: f561f313e37464b2d982d25715bb43cf, type: 2}
     spawnInterval: 2
     maxEnemies: 15
-  - enemyPrefab: {fileID: 197334, guid: f561f313e37464b2d982d25715bb43cf, type: 2}
+  - enemyPrefab: {fileID: 197334, guid: 614f4dc81f2ad4dd0bb9a759c0274631, type: 2}
     spawnInterval: 1
     maxEnemies: 5
   timeBetweenWaves: 5
