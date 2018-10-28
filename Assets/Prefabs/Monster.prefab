@@ -10,7 +10,7 @@ GameObject:
   - component: {fileID: 410648}
   - component: {fileID: 21281326}
   - component: {fileID: 9566906}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monster2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,9 @@ GameObject:
   - component: {fileID: 493582}
   - component: {fileID: 8224800}
   - component: {fileID: 114890066910983376}
-  m_Layer: 0
+  - component: {fileID: 58110048666511510}
+  - component: {fileID: 114763330253403804}
+  m_Layer: 2
   m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +46,7 @@ GameObject:
   - component: {fileID: 487462}
   - component: {fileID: 21246442}
   - component: {fileID: 9559892}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monster0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +63,7 @@ GameObject:
   - component: {fileID: 455556}
   - component: {fileID: 21207170}
   - component: {fileID: 9582102}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Monster1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,6 +423,32 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 134384}
   m_IsPrefabAsset: 1
+--- !u!58 &58110048666511510
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134384}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.5
+--- !u!114 &114763330253403804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc24afb6349b84305b20cf51549f7730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114890066910983376
 MonoBehaviour:
   m_ObjectHideFlags: 1
