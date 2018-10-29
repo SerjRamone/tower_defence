@@ -449,6 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc24afb6349b84305b20cf51549f7730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemiesInRange: []
 --- !u!114 &114890066910983376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -463,7 +464,13 @@ MonoBehaviour:
   levels:
   - cost: 200
     visualization: {fileID: 158574}
+    bullet: {fileID: 1469137746532184, guid: 1e49d84accfbb419597f820e61634e70, type: 2}
+    fireRate: 1
   - cost: 110
     visualization: {fileID: 198738}
+    bullet: {fileID: 1929318864000404, guid: d56fdfb92a58744ba9feeed731d5ec0c, type: 2}
+    fireRate: 1
   - cost: 120
     visualization: {fileID: 105412}
+    bullet: {fileID: 1884700594711476, guid: e36ebfd578a3d48e1a6997535dd98375, type: 2}
+    fireRate: 1
